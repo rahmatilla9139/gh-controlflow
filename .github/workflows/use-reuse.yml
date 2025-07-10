@@ -20,7 +20,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v4
       - name: Install dependencies
-        run: npm run test
+        run: npm ci
       - name: Build web-site
         run: npm run build
       - name: Upload artifact
